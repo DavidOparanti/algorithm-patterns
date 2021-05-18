@@ -31,14 +31,13 @@ public class MergedTwoSortedArray {
 
         while (arr2Index < arr2.length) {
             mergedArray[mergedIndex++] = arr2[arr2Index++];
-
         }
 
         return mergedArray;
     }
         public static void main(String[] args) {
-            int[] arrOne = {1, 2, 3, 4, 5};
-            int[] arrTwo = {4,6, 7, 9, 10};
+            int[] arrTwo = {1, 2, 3, 4, 5};
+            int[] arrOne = {4,6, 7, 9, 10};
 
             System.out.println( Arrays.toString(mergeArrays(arrOne, arrTwo)) );
     }
