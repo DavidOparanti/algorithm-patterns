@@ -2,7 +2,7 @@ package array;
 
 import java.util.ArrayList;
 import java.util.List;
-
+//Given an array, find the average of all contiguous subarrays of size ‘K’ in it.
 public class ContiguousSubArrayAverage {
 
     static List<Double> findAverage(int[] arr, int k) {
