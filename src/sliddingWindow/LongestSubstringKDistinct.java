@@ -3,6 +3,16 @@ package sliddingWindow;
 import java.util.HashMap;
 import java.util.Map;
 
+//Given a string, find the length of the longest substring in it with no more than K distinct characters.
+//
+//        You can assume that K is less than or equal to the length of the given string.
+//
+//        Example:
+//
+//        Input: String="araaci", K=2
+//        Output: 4
+//        Explanation: The longest substring with no more than '2' distinct characters is "araa".
+
 public class LongestSubstringKDistinct {
 
     public static int findLength(String str, int k) {
