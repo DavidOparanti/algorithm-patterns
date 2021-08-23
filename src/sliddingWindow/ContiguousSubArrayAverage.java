@@ -2,7 +2,9 @@ package sliddingWindow;
 
 import java.util.ArrayList;
 import java.util.List;
+
 //Given an array, find the average of all contiguous subarrays of size ‘K’ in it.
+
 public class ContiguousSubArrayAverage {
 
     static List<Double> findAverage(int[] arr, int k) {
@@ -24,6 +26,6 @@ public class ContiguousSubArrayAverage {
     }
 
     public static void main(String[] args) {
-        System.out.println(findAverage(new int[] { 1, 3, 2, 6, -1, 4, 1, 8, 2 }, 5));
+        System.out.println(findAverage(new int[] { 1, 3, 2, 6, -1, 4, 1, 8, 2 }, 7));
     }
 }
